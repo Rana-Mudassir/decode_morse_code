@@ -38,7 +38,7 @@ MORSE_CODE = {
 }.freeze
 
 def decode_char(char)
-  Morse_code.key(char)
+  MORSE_CODE.key(char)
 end
 
 def decode_word(word)
